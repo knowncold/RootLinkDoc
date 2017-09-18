@@ -8,3 +8,7 @@ H1 {
     line-height: 150%;
     color: DarkGreen;
 }
+
+img {
+    max-width: 70%;
+}
