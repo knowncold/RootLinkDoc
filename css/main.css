@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei,WenQuanYi Micro Hei,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,sans-serif;
+}
 H1 {
     font-family: 'Open Sans Light',Georgia,'Source Han Sans CN','Xin Gothic','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;
 	font-weight: 300;
@@ -11,4 +16,35 @@ H1 {
 
 img {
     max-width: 70%;
+}
+.nav {
+  width: 100%;
+  height: 56px;
+  background-color: white;
+  padding-top: 30px;
+}
+.logo {
+  height: 40px;
+  position: relative;
+  top: 8px;
+}
+.nav-left {
+  font-size: 38px;
+  color: #369fd8;
+}
+.nav-left input {
+  font-size: 12px;
+  height: 24px;
+  padding:5px 25px 5px 10px;
+  margin-left: 30px;
+  position: relative;
+  top: -7px;
+  background: #eeeeee;
+  border: 0px;
+}
+.search {
+  height: 14px;
+  position: relative;
+  left: -30px;
+  top: -4px;
 }
