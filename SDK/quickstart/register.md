@@ -22,4 +22,4 @@ category: quickstart
 
 ![登录](/img/register-3.png)
 
-[开始第一个实例](/SDK/quickstart/register)
+[开始第一个实例](/SDK/quickstart/blink)
