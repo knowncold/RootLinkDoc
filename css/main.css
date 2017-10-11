@@ -22,21 +22,28 @@ img {
   height: 56px;
   background-color: white;
   padding-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 10px;
 }
 .logo {
   height: 40px;
   position: relative;
-  top: 8px;
+  top: 5px;
+}
+.nav-content {
+  max-width: 992px;
+  margin: 0 auto;
 }
 .nav-left {
+  float: left;
   font-size: 38px;
   color: #369fd8;
+  width: 420px;
 }
 .nav-left input {
   font-size: 12px;
   height: 24px;
   padding:5px 25px 5px 10px;
-  margin-left: 30px;
+  margin-left: 20px;
   position: relative;
   top: -7px;
   background: #eeeeee;
@@ -45,6 +52,36 @@ img {
 .search {
   height: 14px;
   position: relative;
-  left: -30px;
-  top: -4px;
+  left: 382px;
+  top: -27px;
+}
+.nav-right {
+  float: right;
+}
+.nav-right ul li {
+  float: left;
+  list-style: none;
+  padding: 0 0 12px;
+  margin: 0 12px;
+  width: 75px;
+  text-align: center;
+}
+.nav-right .nav-l {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  color: #6EB9E3;
+}
+.nav-right .nav-r ul li {
+  float: left;
+}
+.nav-right .nav-r {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #369fd8;
+}
+.active {
+  border-bottom: 6px solid #369fd8;
 }
