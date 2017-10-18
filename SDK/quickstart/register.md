@@ -4,7 +4,7 @@ layout: page
 category: quickstart
 ---
 
-## 1.注册用户
+## 1.1注册用户
 
 ![首页](/img/register-0.png)
 
@@ -12,12 +12,12 @@ category: quickstart
 
 ![注册](/img/register-1.png)
 
-## 2.激活账号
+## 1.2激活账号
 ![激活](/img/register-2.jpg)
 
 使用收到的激活码来完成注册。
 
-## 3.登录并开始使用
+## 1.3登录并开始使用
 进入登录页面，输入账号和密码开始使用RootLink平台。
 
 ![登录](/img/register-3.png)

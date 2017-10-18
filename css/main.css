@@ -32,9 +32,10 @@ H1 {
 }
 .nav-left {
   float: left;
+  margin-top: auto;
   font-size: 38px;
   color: #369fd8;
-  width: 420px;
+  width: 417.8px;
 }
 .nav-left input {
   font-size: 12px;
@@ -49,12 +50,6 @@ H1 {
 .nav-left input:focus {
   border: 0px;
 }
-.search {
-  height: 14px;
-  position: relative;
-  left: 382px;
-  top: -27px;
-}
 .nav-right {
   float: right;
 }
@@ -68,7 +63,7 @@ H1 {
 }
 .nav-right .nav-l {
   float: left;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 0px;
   padding-right: 10px;
   color: #6EB9E3;
@@ -78,7 +73,7 @@ H1 {
 }
 .nav-right .nav-r {
   float: right;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 0;
   color: #369fd8;
 }
@@ -121,6 +116,12 @@ h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+h3 {
+  color: #333;
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 .article img {
   max-width: 80%;
   box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 10px;
@@ -135,4 +136,27 @@ p {
 p a {
   text-decoration: none;
   color: #369fd8;
+}
+.article ul {
+  margin-left: 30px;
+}
+.article ul li {
+  list-style: circle;
+  color: #333;
+}
+blockquote {
+  border-left: 4px solid #c0c0c0;
+  font-style: italic;
+}
+blockquote p {
+  color: #666;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.highlighter-rouge {
+  background: #EFEFEF;
+  padding: 6px 2px;
+  font-style: italic;
 }
