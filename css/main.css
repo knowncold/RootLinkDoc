@@ -137,6 +137,7 @@ p a {
   text-decoration: none;
   color: #369fd8;
 }
+<<<<<<< HEAD
 .article ul {
   margin-left: 30px;
 }
@@ -159,4 +160,39 @@ blockquote p {
   background: #EFEFEF;
   padding: 6px 2px;
   font-style: italic;
+=======
+
+code {
+	font-family: 'Open Sans','Microsoft YaHei';
+    font-size: 90%;
+	border:0;
+	color: #2C3E50;
+	background-color:#D6DBDF;
+	border-radius: 4px;
+	padding:2px 4px;
+}
+
+pre {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 75%;
+    border: 1px solid #b0b5a8;
+    background-color: #EFF2F2;
+    padding: 5px;
+    line-height: 130%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 95%;
+	white-space:pre-wrap;
+	overflow-x:auto;
+}
+
+pre > code {
+	font-family: Monaco, Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+    background-color: #EFF2F2;
+    padding: 0px;
+    width: 100%;
+	padding-left:0px;
+	border-radius:0px;
+>>>>>>> d3ff95429b2800d81ac20177949623781adc8528
 }
