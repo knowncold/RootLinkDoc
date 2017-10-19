@@ -156,11 +156,6 @@ blockquote p {
   padding: 0 10px;
   margin-bottom: 20px;
 }
-.highlighter-rouge {
-  background: #EFEFEF;
-  padding: 6px 2px;
-  font-style: italic;
-=======
 
 code {
 	font-family: 'Open Sans','Microsoft YaHei';
@@ -194,5 +189,4 @@ pre > code {
     width: 100%;
 	padding-left:0px;
 	border-radius:0px;
->>>>>>> d3ff95429b2800d81ac20177949623781adc8528
 }
