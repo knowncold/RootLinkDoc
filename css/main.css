@@ -159,7 +159,7 @@ blockquote p {
 
 code {
 	font-family: 'Open Sans','Microsoft YaHei';
-    font-size: 90%;
+    font-size: 95%;
 	border:0;
 	color: #2C3E50;
 	background-color:#D6DBDF;
@@ -183,7 +183,7 @@ pre {
 
 pre > code {
 	font-family: Monaco, Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
-    font-size: 90%;
+    font-size: 95%;
     background-color: #EFF2F2;
     padding: 0px;
     width: 100%;
