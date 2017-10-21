@@ -1,6 +1,6 @@
 title: RootLink Document
 baseurl: ""
-url: ""
+url: "/doc"
 
 # Build settings
 markdown: kramdown

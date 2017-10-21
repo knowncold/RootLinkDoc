@@ -16,26 +16,26 @@ category: quickstart
 ## 登录平台
 进入[登录界面](http://118.89.28.157/login)，输入账号密码登录。
 
-![登录](/img/register-3.png)
+![登录]({{ site.url }}/img/register-3.png)
 
 ## 创建设备
 进入[用户中心](http://118.89.28.157/dashboard/device)，能直接看到创建设备。
 
-![](/img/upload-0.png)
+![]({{ site.url }}/img/upload-0.png)
 
 按照提示，填写名称和描述即可创建设备。
 
-![](/img/upload-1.png)
+![]({{ site.url }}/img/upload-1.png)
 
 ## 获得API key
 
-![](/img/upload-2.png)
+![]({{ site.url }}/img/upload-2.png)
 
 这里的 `API key` 在写代码的时候会经常用到，用来作为用户验证，注意不要泄露了；单击 `复制` 即可复制到粘贴板，也可以通过 `重新生成 API` 来重置 `API key` 。
 
 ## 设备管理
 
-![](/img/upload-3.png)
+![]({{ site.url }}/img/upload-3.png)
 
 点击中间的详情进入该设备的管理界面，左边的编辑可以修改设备的名称和描述，右边的删除可以删除该设备。
 
@@ -43,11 +43,11 @@ category: quickstart
 
 在设备管理界面单击添加传感器，选择 `数值类型传感器` ，填写传感器描述和传感器的单位。
 
-![](/img/upload-4.png)
+![]({{ site.url }}/img/upload-4.png)
 
 初始化的传感器没有初始值。
 
-![](/img/upload-5.png)
+![]({{ site.url }}/img/upload-5.png)
 
 ## 连接硬件
 
