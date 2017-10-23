@@ -53,6 +53,15 @@ H1 {
 .nav-right {
   float: right;
 }
+.nav-right a {
+  text-decoration: none;
+}
+.nav-l a {
+  color: #6EB9E3;
+}
+.nav-r a {
+  color: #369fd8;
+}
 .nav-right ul li {
   float: left;
   list-style: none;
@@ -95,6 +104,7 @@ H1 {
 .article {
   min-width: 800px;
   padding-left: 20px;
+  padding-right: 40px;
   margin-left: 350px;
   padding-top: 120px;
   padding-bottom: 30px;
@@ -137,7 +147,6 @@ p a {
   text-decoration: none;
   color: #369fd8;
 }
-<<<<<<< HEAD
 .article ul {
   margin-left: 30px;
 }
